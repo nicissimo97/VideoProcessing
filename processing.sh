@@ -1,6 +1,6 @@
 #!/bin/bash
 # Video_Processing_Italiansubs
-# Version: 1.2
+# Version: 1.3
 #
 # Nicolas D'amuri - nicissimo97
 #
@@ -8,9 +8,11 @@
 # 1.0 First release
 # 1.1 Added unrar event and encoding cicle for multiple file
 # 1.2 Improved logging
+# 1.3 Added manual mode
 
 file_path="$1" 
-full_path="/media/sdah1/nicissimo97/private/rtorrent/RESYNCH/" 
+path_manual_mode="/media/sdah1/nicissimo97/private/rtorrent/data"
+full_path="/media/sdah1/nicissimo97/private/rtorrent/RESYNCH/"  
 removePath () {
   echo "$file_path" | sed 's/...............................................//'
 }
@@ -55,6 +57,11 @@ fi
 else
 	echo "[ ERROR ] Empty variable - Manual Mode"
 	echo "[ ERROR ]">>$full_path/log.txt
+	cd "$path_manual_mode"
+	eval "ls"
+	echo "Select video file and press ENTER:  "
+	read file
+	encode "$path_manual_mode/$file" "$path_manual_mode/$file"
 fi
 # Clear variable content #
 full_path=""
