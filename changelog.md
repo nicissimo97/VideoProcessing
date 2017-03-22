@@ -1,6 +1,6 @@
 # ChangeLog
 
-## [1.3.0] - 2015-12-03
+## [1.3.0][Current] - 2015-12-03
 ### Added
 - Added manual mode
 
