@@ -6,7 +6,7 @@
 
 ## [1.2.0] - 2015-10-06
 ### Added
-- Improved loggig function.
+- Improved logging function.
 
 ## [1.1.0] - 2015-10-06
 ### Added
