@@ -5,10 +5,6 @@
 # Nicolas D'amuri - nicissimo97
 #
 # Changelog
-# 1.0 First release
-# 1.1 Added unrar event and encoding cicle for multiple file
-# 1.2 Improved logging
-# 1.3 Added manual mode
 
 file_path="$1" 
 path_manual_mode="/media/sdah1/nicissimo97/private/rtorrent/data"
