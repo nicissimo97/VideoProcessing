@@ -29,7 +29,7 @@ encode () {
 
 # Main #
 if [[ $file_path ]]; then
-if [[ $file_name == *mkv ]] || [[ $file_name == *mp4 ]]; then
+if [[ $file_name == *mkv ]] || [[ $file_name == *mp4 ]] || [[ $file_name == *avi ]]; then
 	encode "$file_path" "$file_path"
 	echo "[ 1 OK! ]">>$full_path/log.txt
 else
