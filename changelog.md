@@ -1,6 +1,10 @@
 # ChangeLog
 
-## [1.3.0][Current] - 2015-12-03
+## [1.4.0][Current] - 2017-09-11
+### Added
+- AVI Re-Encoding for single files
+
+## [1.3.0] - 2015-12-03
 ### Added
 - Added manual mode
 
