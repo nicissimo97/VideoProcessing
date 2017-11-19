@@ -1,25 +1,25 @@
 # ChangeLog
 
-## [1.4.0][Current] - 2017-09-11
+## [1.0][Current] - 2017-09-11
 ### Added
 - AVI Re-Encoding for single files
 
-## [1.3.0] - 2015-12-03
+## [0.5] -
 ### Added
 - Added manual mode
 
-## [1.2.0] - 2015-10-06
+## [0.4] -
 ### Added
 - Improved logging function.
 
-## [1.1.0] - 2015-10-06
+## [0.3]
 ### Added
 - Encoding cicle for multiple video files.
 
-## [1.0.1] - 2015-10-06
+## [0.2] -
 ### Changed
 - Added Unrar event.
 
-## [1.0.0] - 2015-10-06
+## [0.1] -
 ### Added
 - First commit.
