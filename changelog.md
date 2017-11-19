@@ -1,6 +1,12 @@
 # ChangeLog
 
-## [1.0][Current] - 2017-09-11
+## [1.1][Current] - 2017-11-19
+### Added
+- Remove blanks from file_name
+### Fixed
+- Multiple encode for the same file
+
+## [1.0] - 2017-09-11
 ### Added
 - AVI Re-Encoding for single files
 
