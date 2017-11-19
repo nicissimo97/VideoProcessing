@@ -1,6 +1,6 @@
 #!/bin/bash
 # Video_Processing_Italiansubs
-# Version: 1.4
+# Version: 1.2
 #
 # Nicolas D'amuri - nicissimo97
 #
