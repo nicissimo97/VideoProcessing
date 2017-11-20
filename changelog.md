@@ -1,6 +1,11 @@
 # ChangeLog
 
-## [1.0][Current] - 2017-09-11
+## [1.1][Current] - 2017-11-19
+### Fixed
+- Bug causing multiple re-encoding when file
+is inside a directory
+
+## [1.0] - 2017-09-11
 ### Added
 - AVI Re-Encoding for single files
 
@@ -23,4 +28,5 @@
 ## [0.1] -
 ### Added
 - First commit.
+
 
