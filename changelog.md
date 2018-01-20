@@ -1,4 +1,4 @@
-# ChangeLog
+# ChangeLog #
 
 ## [1.1][Current] - 2017-11-19
 ### Fixed
@@ -28,5 +28,3 @@ is inside a directory
 ## [0.1] -
 ### Added
 - First commit.
-
-
