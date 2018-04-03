@@ -1,0 +1,15 @@
+
+function hasSpace() {
+  [[ "$1" != "${1%[[:space:]]*}" ]] && return 0 || return 1
+}
+
+function removeBlanks() {
+    echo "${s//[[:blank:]]/}"
+}
+
+if [[ hasSpace($fileName) ]]; then
+  removeBlanks($fileName)
+  mv $fileName $fileName
+else
+  //processing.sh
+fi
