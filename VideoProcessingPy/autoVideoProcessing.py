@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # Auto Video Processing for rTorrent
-# Version: 1.1
+# Version: 
 #
 # Copyright (C) 2018 Nicolas D'amuri - nicissimo97
 #
